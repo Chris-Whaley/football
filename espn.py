@@ -32,7 +32,7 @@ class Qbr:
     postseason, weekly stats or season leaders.
     """
     
-    def __init__(self, years, weeks, season_type='regular', stat_type='weekly'):
+    def __init__(self, years, weeks=1, season_type='regular', stat_type='weekly'):
          """ Initialize attributes to describe QBR stats from seasons and weeks."""
          self.years = years
          self.weeks = weeks
